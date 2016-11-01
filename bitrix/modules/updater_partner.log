@@ -1,0 +1,268 @@
+2014-12-16 17:57:44 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-12-16 17:57:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:57:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=bitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.sitepersonal%2Casd.tplvars
+2014-12-16 17:57:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:57:45 -  - TIME GetUpdatesList(request) 0.395 sec
+2014-12-16 17:57:45 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:57:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:57:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:57:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars&lim=Y
+2014-12-16 17:57:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:57:51 -  - TIME LoadModulesUpdates(request) 0.359 sec
+2014-12-16 17:57:51 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:57:51 - LMU01 - LoadModulesUpdates-Step
+2014-12-16 17:57:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:57:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:57:53 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:57:53 - DOWNLOAD - Time - 0.499027967453 sec
+2014-12-16 17:57:53 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-12-16 17:57:53 -  - TIME UnGzipArchive 0.076 sec
+2014-12-16 17:57:53 -  - TIME UpdateStepModules 0.04 sec
+2014-12-16 17:57:53 - UPD_SUCCESS - Updated: asd.tplvars
+2014-12-16 17:57:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:57:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:57:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.0.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars&lim=Y
+2014-12-16 17:57:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:57:56 -  - TIME LoadModulesUpdates(request) 0.345 sec
+2014-12-16 17:57:56 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:57:56 - LMU01 - LoadModulesUpdates-Step
+2014-12-16 17:57:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:57:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:57:57 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:57:58 - DOWNLOAD - Time - 0.42002391815186 sec
+2014-12-16 17:57:58 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-12-16 17:57:58 -  - TIME UnGzipArchive 0.015 sec
+2014-12-16 17:57:58 - CSURUS1 - Run updater '/bitrix/updates/update_m1418738278/asd.tplvars/updater1.0.2.php'
+2014-12-16 17:57:58 -  - TIME UpdateStepModules 0.011 sec
+2014-12-16 17:57:58 - UPD_SUCCESS - Updated: asd.tplvars (1.0.2)<br>- Изменен порядок проверки показа кнопки на панели.
+2014-12-16 17:58:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:00 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.0.2%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars&lim=Y
+2014-12-16 17:58:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:58:00 -  - TIME LoadModulesUpdates(request) 0.379 sec
+2014-12-16 17:58:00 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:00 - LMU01 - LoadModulesUpdates-Step
+2014-12-16 17:58:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:02 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:03 - DOWNLOAD - Time - 0.65703701972961 sec
+2014-12-16 17:58:03 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-12-16 17:58:03 -  - TIME UnGzipArchive 0.007 sec
+2014-12-16 17:58:03 - CSURUS1 - Run updater '/bitrix/updates/update_m1418738283/asd.tplvars/updater1.0.3.php'
+2014-12-16 17:58:03 -  - TIME UpdateStepModules 0.009 sec
+2014-12-16 17:58:03 - UPD_SUCCESS - Updated: asd.tplvars (1.0.3)<br>- Дополнил функцией tplinvis: http://dev.1c-bitrix.ru/community/webdev/user/11948/blog/7543/
+2014-12-16 17:58:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars&lim=Y
+2014-12-16 17:58:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:58:05 -  - TIME LoadModulesUpdates(request) 0.455 sec
+2014-12-16 17:58:05 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:05 - LMU01 - LoadModulesUpdates-Step
+2014-12-16 17:58:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:07 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:07 - DOWNLOAD - Time - 0.39402198791504 sec
+2014-12-16 17:58:07 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-12-16 17:58:07 -  - TIME UnGzipArchive 0.021 sec
+2014-12-16 17:58:07 - CSURUS1 - Run updater '/bitrix/updates/update_m1418738287/asd.tplvars/updater1.0.4.php'
+2014-12-16 17:58:07 -  - TIME UpdateStepModules 0.016 sec
+2014-12-16 17:58:07 - UPD_SUCCESS - Updated: asd.tplvars (1.0.4)<br>- Мелкие ошибки.
+2014-12-16 17:58:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.0.4%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars&lim=Y
+2014-12-16 17:58:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:58:10 -  - TIME LoadModulesUpdates(request) 0.382 sec
+2014-12-16 17:58:10 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:10 - LMU01 - LoadModulesUpdates-Step
+2014-12-16 17:58:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:11 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:11 - DOWNLOAD - Time - 0.38502192497253 sec
+2014-12-16 17:58:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-12-16 17:58:11 -  - TIME UnGzipArchive 0.019 sec
+2014-12-16 17:58:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1418738291/asd.tplvars/updater1.0.5.php'
+2014-12-16 17:58:11 -  - TIME UpdateStepModules 0.015 sec
+2014-12-16 17:58:12 - UPD_SUCCESS - Updated: asd.tplvars (1.0.5)<br>- Исправление js-ошибки.
+2014-12-16 17:58:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.0.5%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars&lim=Y
+2014-12-16 17:58:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:58:14 -  - TIME LoadModulesUpdates(request) 0.374 sec
+2014-12-16 17:58:14 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:14 - LMU01 - LoadModulesUpdates-Step
+2014-12-16 17:58:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:16 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:16 - DOWNLOAD - Time - 0.44202494621277 sec
+2014-12-16 17:58:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-12-16 17:58:16 -  - TIME UnGzipArchive 0.012 sec
+2014-12-16 17:58:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1418738296/asd.tplvars/updater1.1.0.php'
+2014-12-16 17:58:16 -  - TIME UpdateStepModules 0.012 sec
+2014-12-16 17:58:16 - UPD_SUCCESS - Updated: asd.tplvars (1.1.0)<br>- Добавлена функция tplvar_set. Использование: tplvar_set($code, $value, $site), все значения обязательны. 
+2014-12-16 17:58:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.1.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars&lim=Y
+2014-12-16 17:58:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:58:18 -  - TIME LoadModulesUpdates(request) 0.319 sec
+2014-12-16 17:58:18 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:18 - LMU01 - LoadModulesUpdates-Step
+2014-12-16 17:58:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:20 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:20 - DOWNLOAD - Time - 0.38502216339111 sec
+2014-12-16 17:58:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-12-16 17:58:20 -  - TIME UnGzipArchive 0.02 sec
+2014-12-16 17:58:20 - CSURUS1 - Run updater '/bitrix/updates/update_m1418738300/asd.tplvars/updater1.1.1.php'
+2014-12-16 17:58:20 -  - TIME UpdateStepModules 0.011 sec
+2014-12-16 17:58:20 - UPD_SUCCESS - Updated: asd.tplvars (1.1.1)<br>- Изменен порядок вызова обработчика на добавление кнопки в меню.
+2014-12-16 17:58:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:22 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.1.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars&lim=Y
+2014-12-16 17:58:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:58:23 -  - TIME LoadModulesUpdates(request) 0.386 sec
+2014-12-16 17:58:23 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:23 - LMU01 - LoadModulesUpdates-Step
+2014-12-16 17:58:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:24 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:25 - DOWNLOAD - Time - 0.40002298355103 sec
+2014-12-16 17:58:25 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-12-16 17:58:25 -  - TIME UnGzipArchive 0.026 sec
+2014-12-16 17:58:25 - CSURUS1 - Run updater '/bitrix/updates/update_m1418738305/asd.tplvars/updater1.2.1.php'
+2014-12-16 17:58:25 -  - TIME UpdateStepModules 0.018 sec
+2014-12-16 17:58:25 - UPD_SUCCESS - Updated: asd.tplvars (1.2.1)<br>- Исправления под 14-ю версию Битрикс.
+2014-12-16 17:58:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-12-16 17:58:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.2.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars&lim=Y
+2014-12-16 17:58:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:58:27 -  - TIME LoadModulesUpdates(request) 0.459 sec
+2014-12-16 17:58:27 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:27 - STEP - Finish - NOUPDATES
+2014-12-16 17:58:27 - STEP - Finish - NOUPDATES
+2014-12-16 17:58:34 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-12-16 17:58:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.2.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.sitepersonal&fullmoduleinfo=Y
+2014-12-16 17:58:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:58:35 -  - TIME GetUpdatesList(request) 0.321 sec
+2014-12-16 17:58:35 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-16 17:58:38 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-12-16 17:58:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-16 17:58:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.2.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.sitepersonal&fullmoduleinfo=Y
+2014-12-16 17:58:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-16 17:58:39 -  - TIME GetUpdatesList(request) 0.413 sec
+2014-12-16 17:58:39 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-18 01:24:28 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-12-18 01:24:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-18 01:24:28 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.2.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.sitepersonal
+2014-12-18 01:24:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-18 01:24:29 -  - TIME GetUpdatesList(request) 0.404 sec
+2014-12-18 01:24:29 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-18 01:24:36 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-12-18 01:24:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-18 01:24:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.2.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.sitepersonal
+2014-12-18 01:24:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-18 01:24:36 -  - TIME GetUpdatesList(request) 0.307 sec
+2014-12-18 01:24:36 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-18 01:24:56 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-12-18 01:24:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-18 01:24:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.2.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.sitepersonal&fullmoduleinfo=Y
+2014-12-18 01:24:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-18 01:24:56 -  - TIME GetUpdatesList(request) 0.345 sec
+2014-12-18 01:24:56 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-18 01:27:20 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-12-18 01:27:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-18 01:27:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.5.12&dbv=5.1.51&instm=main%2C14.5.0%2CY%3Basd.tplvars%2C1.2.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bblog%2C14.5.0%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bforum%2C14.5.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bperfmon%2C14.0.1%2CN%3Bphotogallery%2C14.5.1%2CN%3Bscale%2C14.5.0%2CN%3Bsearch%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN&reqm=asd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.sitepersonal
+2014-12-18 01:27:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-18 01:27:20 -  - TIME GetUpdatesList(request) 0.337 sec
+2014-12-18 01:27:20 -  - exec CUpdateClientPartner::ParseServerData
+2014-12-23 17:51:17 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-12-23 17:51:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-12-23 17:51:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=blr.dev6.j-lab.biz&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.3-7%2Bsqueeze13&dbv=5.1.49&instm=main%2C14.5.0%2CY%3Bscale%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bsubscribe%2C14.5.0%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bvote%2C14.0.2%2CN%3Bforum%2C14.5.1%2CN%3Basd.tplvars%2C1.2.1%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bform%2C14.0.1%2CN%3Bhighloadblock%2C14.0.6%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bfileman%2C14.5.0%2CN%3Biblock%2C14.5.0%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN%3Bseo%2C14.5.0%2CN%3Bsecurity%2C14.5.0%2CN%3Bphotogallery%2C14.5.1%2CN%3Bcompression%2C14.0.0%2CN%3Bmobileapp%2C14.0.3%2CN%3Bclouds%2C14.5.0%2CN%3Bblog%2C14.5.0%2CN&reqm=bitrix.siteinfoportal%2Casd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal
+2014-12-23 17:51:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-12-23 17:51:18 -  - TIME GetUpdatesList(request) 0.297 sec
+2014-12-23 17:51:18 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:32:57 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-02-16 12:32:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:32:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=belliftreklama.by&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.28&dbv=5.5.45&instm=main%2C15.0.6%2CN%3Bfileman%2C15.0.2%2CN%3Btranslate%2C12.5.0%2CN%3Bhighloadblock%2C15.0.2%2CN%3Bblog%2C15.0.3%2CN%3Bsubscribe%2C15.0.0%2CN%3Bseo%2C15.0.0%2CN%3Bphotogallery%2C15.0.0%2CN%3Bsecurity%2C15.0.6%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Basd.tplvars%2C1.2.1%2CN%3Bmobileapp%2C15.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C14.5.3%2CN%3Bform%2C15.0.1%2CN%3Biblock%2C15.0.5%2CN%3Bforum%2C15.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bsocialservices%2C15.0.0%2CN%3Bclouds%2C15.0.0%2CN%3Bperfmon%2C15.0.2%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrixcloud%2C15.0.0%2CN&reqm=bitrix.sitepersonal%2Casd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal&SUPD_SRS=RU&SUPD_CMP=N
+2016-02-16 12:32:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-02-16 12:32:58 -  - TIME GetUpdatesList(request) 1.093 sec
+2016-02-16 12:32:58 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:33:06 -  - exec CUpdateClientPartner::ActivateCoupon
+2016-02-16 12:33:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:33:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=belliftreklama.by&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.28&dbv=5.5.45&instm=main%2C15.0.6%2CN%3Bfileman%2C15.0.2%2CN%3Btranslate%2C12.5.0%2CN%3Bhighloadblock%2C15.0.2%2CN%3Bblog%2C15.0.3%2CN%3Bsubscribe%2C15.0.0%2CN%3Bseo%2C15.0.0%2CN%3Bphotogallery%2C15.0.0%2CN%3Bsecurity%2C15.0.6%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Basd.tplvars%2C1.2.1%2CN%3Bmobileapp%2C15.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C14.5.3%2CN%3Bform%2C15.0.1%2CN%3Biblock%2C15.0.5%2CN%3Bforum%2C15.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bsocialservices%2C15.0.0%2CN%3Bclouds%2C15.0.0%2CN%3Bperfmon%2C15.0.2%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrixcloud%2C15.0.0%2CN&SUPD_SRS=RU&SUPD_CMP=N&coupon=SUP-PPNV5E8KR3-5K3S0KUCVJ&query_type=coupon
+2016-02-16 12:33:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-02-16 12:33:09 -  - TIME ActivateCoupon(request) 3.21 sec
+2016-02-16 12:33:09 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:33:09 - UPD_SUCCESS - Coupon activated
+2016-02-16 12:33:12 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-02-16 12:33:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:33:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=belliftreklama.by&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.28&dbv=5.5.45&instm=main%2C15.0.6%2CN%3Bfileman%2C15.0.2%2CN%3Btranslate%2C12.5.0%2CN%3Bhighloadblock%2C15.0.2%2CN%3Bblog%2C15.0.3%2CN%3Bsubscribe%2C15.0.0%2CN%3Bseo%2C15.0.0%2CN%3Bphotogallery%2C15.0.0%2CN%3Bsecurity%2C15.0.6%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Basd.tplvars%2C1.2.1%2CN%3Bmobileapp%2C15.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C14.5.3%2CN%3Bform%2C15.0.1%2CN%3Biblock%2C15.0.5%2CN%3Bforum%2C15.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bsocialservices%2C15.0.0%2CN%3Bclouds%2C15.0.0%2CN%3Bperfmon%2C15.0.2%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrixcloud%2C15.0.0%2CN&reqm=bitrix.sitepersonal%2Casd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal&SUPD_SRS=RU&SUPD_CMP=N
+2016-02-16 12:33:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-02-16 12:33:15 -  - TIME GetUpdatesList(request) 3.058 sec
+2016-02-16 12:33:15 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:33:22 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-02-16 12:33:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:33:22 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=belliftreklama.by&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.28&dbv=5.5.45&instm=main%2C15.0.6%2CN%3Bfileman%2C15.0.2%2CN%3Btranslate%2C12.5.0%2CN%3Bhighloadblock%2C15.0.2%2CN%3Bblog%2C15.0.3%2CN%3Bsubscribe%2C15.0.0%2CN%3Bseo%2C15.0.0%2CN%3Bphotogallery%2C15.0.0%2CN%3Bsecurity%2C15.0.6%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Basd.tplvars%2C1.2.1%2CN%3Bmobileapp%2C15.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C14.5.3%2CN%3Bform%2C15.0.1%2CN%3Biblock%2C15.0.5%2CN%3Bforum%2C15.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bsocialservices%2C15.0.0%2CN%3Bclouds%2C15.0.0%2CN%3Bperfmon%2C15.0.2%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrixcloud%2C15.0.0%2CN&reqm=bitrix.sitepersonal%2Casd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal&SUPD_SRS=RU&SUPD_CMP=N
+2016-02-16 12:33:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-02-16 12:33:23 -  - TIME GetUpdatesList(request) 1.307 sec
+2016-02-16 12:33:23 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:33:29 -  - exec CUpdateClientPartner::ActivateCoupon
+2016-02-16 12:33:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:33:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=belliftreklama.by&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.28&dbv=5.5.45&instm=main%2C15.0.6%2CN%3Bfileman%2C15.0.2%2CN%3Btranslate%2C12.5.0%2CN%3Bhighloadblock%2C15.0.2%2CN%3Bblog%2C15.0.3%2CN%3Bsubscribe%2C15.0.0%2CN%3Bseo%2C15.0.0%2CN%3Bphotogallery%2C15.0.0%2CN%3Bsecurity%2C15.0.6%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Basd.tplvars%2C1.2.1%2CN%3Bmobileapp%2C15.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C14.5.3%2CN%3Bform%2C15.0.1%2CN%3Biblock%2C15.0.5%2CN%3Bforum%2C15.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bsocialservices%2C15.0.0%2CN%3Bclouds%2C15.0.0%2CN%3Bperfmon%2C15.0.2%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrixcloud%2C15.0.0%2CN&SUPD_SRS=RU&SUPD_CMP=N&coupon=SUP-PPNV5E8KR3-5K3S0KUCVJ&query_type=coupon
+2016-02-16 12:33:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-02-16 12:33:30 -  - TIME ActivateCoupon(request) 0.337 sec
+2016-02-16 12:33:30 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:33:30 - AC - [CHECK_IS_BAD] Купон (чек) не действителен. 
+2016-02-16 12:33:30 - UPD_ERROR - Error: [CHECK_IS_BAD] Купон (чек) не действителен. Ошибка активации купона. 
+2016-02-16 12:34:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-02-16 12:34:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:34:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=belliftreklama.by&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.28&dbv=5.5.45&instm=main%2C15.0.6%2CN%3Bfileman%2C15.0.2%2CN%3Btranslate%2C12.5.0%2CN%3Bhighloadblock%2C15.0.2%2CN%3Bblog%2C15.0.3%2CN%3Bsubscribe%2C15.0.0%2CN%3Bseo%2C15.0.0%2CN%3Bphotogallery%2C15.0.0%2CN%3Bsecurity%2C15.0.6%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Basd.tplvars%2C1.2.1%2CN%3Bmobileapp%2C15.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C14.5.3%2CN%3Bform%2C15.0.1%2CN%3Biblock%2C15.0.5%2CN%3Bforum%2C15.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bsocialservices%2C15.0.0%2CN%3Bclouds%2C15.0.0%2CN%3Bperfmon%2C15.0.2%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrixcloud%2C15.0.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-02-16 12:34:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-02-16 12:34:29 -  - TIME LoadModulesUpdates(request) 0.697 sec
+2016-02-16 12:34:29 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:34:29 - LMU01 - LoadModulesUpdates-Step
+2016-02-16 12:34:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-02-16 12:34:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:34:30 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:34:30 - DOWNLOAD - Time - 0.427431821823 sec
+2016-02-16 12:34:30 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-02-16 12:34:30 -  - TIME UnGzipArchive 0.003 sec
+2016-02-16 12:34:30 - CSURUS1 - Run updater '/bitrix/updates/update_m1455615270/asd.tplvars/updater1.5.0.php'
+2016-02-16 12:34:30 -  - TIME UpdateStepModules 0.024 sec
+2016-02-16 12:34:30 - UPD_SUCCESS - Updated: asd.tplvars (1.5.0)<br>Поддержка описаний свойств.
+2016-02-16 12:34:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-02-16 12:34:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:34:30 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=belliftreklama.by&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.28&dbv=5.5.45&instm=main%2C15.0.6%2CN%3Bfileman%2C15.0.2%2CN%3Btranslate%2C12.5.0%2CN%3Bhighloadblock%2C15.0.2%2CN%3Bblog%2C15.0.3%2CN%3Bsubscribe%2C15.0.0%2CN%3Bseo%2C15.0.0%2CN%3Bphotogallery%2C15.0.0%2CN%3Bsecurity%2C15.0.6%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Basd.tplvars%2C1.5.0%2CN%3Bmobileapp%2C15.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C14.5.3%2CN%3Bform%2C15.0.1%2CN%3Biblock%2C15.0.5%2CN%3Bforum%2C15.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bsocialservices%2C15.0.0%2CN%3Bclouds%2C15.0.0%2CN%3Bperfmon%2C15.0.2%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrixcloud%2C15.0.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-02-16 12:34:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-02-16 12:34:31 -  - TIME LoadModulesUpdates(request) 0.641 sec
+2016-02-16 12:34:31 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:34:31 - LMU01 - LoadModulesUpdates-Step
+2016-02-16 12:34:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-02-16 12:34:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:34:31 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:34:31 - DOWNLOAD - Time - 0.40003490448 sec
+2016-02-16 12:34:31 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-02-16 12:34:31 -  - TIME UnGzipArchive 0.001 sec
+2016-02-16 12:34:31 - CSURUS1 - Run updater '/bitrix/updates/update_m1455615271/asd.tplvars/updater1.5.1.php'
+2016-02-16 12:34:31 -  - TIME UpdateStepModules 0.002 sec
+2016-02-16 12:34:31 - UPD_SUCCESS - Updated: asd.tplvars (1.5.1)<br>Совместимость со старыми версиями.
+2016-02-16 12:34:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-02-16 12:34:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:34:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=belliftreklama.by&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.28&dbv=5.5.45&instm=main%2C15.0.6%2CN%3Bfileman%2C15.0.2%2CN%3Btranslate%2C12.5.0%2CN%3Bhighloadblock%2C15.0.2%2CN%3Bblog%2C15.0.3%2CN%3Bsubscribe%2C15.0.0%2CN%3Bseo%2C15.0.0%2CN%3Bphotogallery%2C15.0.0%2CN%3Bsecurity%2C15.0.6%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bmobileapp%2C15.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C14.5.3%2CN%3Bform%2C15.0.1%2CN%3Biblock%2C15.0.5%2CN%3Bforum%2C15.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bsocialservices%2C15.0.0%2CN%3Bclouds%2C15.0.0%2CN%3Bperfmon%2C15.0.2%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrixcloud%2C15.0.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-02-16 12:34:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-02-16 12:34:32 -  - TIME LoadModulesUpdates(request) 0.501 sec
+2016-02-16 12:34:32 -  - exec CUpdateClientPartner::ParseServerData
+2016-02-16 12:34:32 - STEP - Finish - NOUPDATES
+2016-02-16 12:34:32 - STEP - Finish - NOUPDATES
+2016-02-16 12:34:36 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-02-16 12:34:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-16 12:34:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=belliftreklama.by&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.28&dbv=5.5.45&instm=main%2C15.0.6%2CN%3Bfileman%2C15.0.2%2CN%3Btranslate%2C12.5.0%2CN%3Bhighloadblock%2C15.0.2%2CN%3Bblog%2C15.0.3%2CN%3Bsubscribe%2C15.0.0%2CN%3Bseo%2C15.0.0%2CN%3Bphotogallery%2C15.0.0%2CN%3Bsecurity%2C15.0.6%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bmobileapp%2C15.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C14.5.3%2CN%3Bform%2C15.0.1%2CN%3Biblock%2C15.0.5%2CN%3Bforum%2C15.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bsocialservices%2C15.0.0%2CN%3Bclouds%2C15.0.0%2CN%3Bperfmon%2C15.0.2%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrixcloud%2C15.0.0%2CN&reqm=bitrix.sitepersonal%2Casd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal&SUPD_SRS=RU&SUPD_CMP=N
+2016-02-16 12:34:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-02-16 12:34:36 -  - TIME GetUpdatesList(request) 0.404 sec
+2016-02-16 12:34:36 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-27 03:12:44 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-27 03:12:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-27 03:12:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=belliftreklama.by&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.28&dbv=5.5.49&instm=main%2C15.0.6%2CN%3Bfileman%2C15.0.2%2CN%3Btranslate%2C12.5.0%2CN%3Bhighloadblock%2C15.0.2%2CN%3Bblog%2C15.0.3%2CN%3Bsubscribe%2C15.0.0%2CN%3Bseo%2C15.0.0%2CN%3Bphotogallery%2C15.0.0%2CN%3Bsecurity%2C15.0.6%2CN%3Bbitrix.sitepersonal%2C14.5.0%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bmobileapp%2C15.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C14.5.3%2CN%3Bform%2C15.0.1%2CN%3Biblock%2C15.0.5%2CN%3Bforum%2C15.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bsocialservices%2C15.0.0%2CN%3Bclouds%2C15.0.0%2CN%3Bperfmon%2C15.0.2%2CN%3Bbitrix.siteinfoportal%2C14.5.0%2CN%3Bbitrixcloud%2C15.0.0%2CN&reqm=bitrix.sitepersonal%2Casd.tplvars%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-27 03:12:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-27 03:12:45 -  - TIME GetUpdatesList(request) 0.295 sec
+2016-09-27 03:12:45 -  - exec CUpdateClientPartner::ParseServerData

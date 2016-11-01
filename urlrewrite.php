@@ -1,0 +1,35 @@
+<?
+$arUrlRewrite = array(
+	array(
+		"CONDITION" => "#^/services/completed/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/services/completed/index.php",
+	),
+	array(
+		"CONDITION" => "#^/contacts/#",
+		"RULE" => "",
+		"ID" => "bitrix:form.result.new",
+		"PATH" => "/contacts/index.php",
+	),
+	array(
+		"CONDITION" => "#^/services/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/services/index.php",
+	),
+	array(
+		"CONDITION" => "#^/news/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/news/index.php",
+	),
+	array(
+		"CONDITION" => "#^#",
+		"RULE" => "",
+		"ID" => "bitrix:form.result.new",
+		"PATH" => "/bitrix/templates/belliftreklama/header.php",
+	),
+);
+
+?>
