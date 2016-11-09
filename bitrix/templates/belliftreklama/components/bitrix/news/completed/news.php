@@ -18,6 +18,7 @@
         );?>
     </aside>
     <div class="main">
+        <h1>Реализованные проекты</h1>
         <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb_bellift", Array(
             "START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
             "PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
@@ -25,7 +26,6 @@
         ),
             false
         );?>
-        <h1>Реализованные проекты</h1>
         <?$APPLICATION->IncludeComponent(
             "bitrix:news.list",
             "",

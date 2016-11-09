@@ -6,15 +6,15 @@ $APPLICATION->SetPageProperty("description", "Контакты реклама в
 $APPLICATION->SetTitle("Контакты | Заказ рекламы в лифтах");
 ?><div id="content">
 	<div class="main">
-	<?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb_bellift", Array(
-		"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
-		"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
-		"SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
-	),
-		false
-	);?>
-		 <!--This one font-size using only here, we either must add some class to the page or make this styling-->
+	<!--This one font-size using only here, we either must add some class to the page or make this styling-->
 		<h1 style="font-size:36px;">Контакты</h1>
+		<?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb_bellift", Array(
+			"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
+			"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+			"SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+		),
+			false
+		);?>
 	</div>
  <article class="contacts_block"> <section class="block">
 	<h3>Адрес</h3>

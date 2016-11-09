@@ -115,15 +115,14 @@ foreach ($imagesIds as $k => $imageId) {
 	$preview_text = str_replace('#calculator#', $calculator, $preview_text);
 ?>
 
-<?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb_bellift", Array(
-	"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
-		"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
-		"SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
-	),
-	false
-);?>
-
 <h1><?= $name ?></h1>
+<?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb_bellift", Array(
+    "START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
+    "PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+    "SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+),
+    false
+);?>
 <main class="article_details">
     <? if ($image): ?>
         <img src="<?= $image ?>" width="630" alt="<?= $alt ?>" height="300"/>

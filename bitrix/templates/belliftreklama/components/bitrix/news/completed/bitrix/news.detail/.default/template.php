@@ -30,6 +30,7 @@ foreach ($imagesIds as $k => $imageId) {
     );
 }
 ?>
+<h1><?= $name ?></h1>
 <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb_bellift", Array(
     "START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
     "PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
@@ -37,7 +38,6 @@ foreach ($imagesIds as $k => $imageId) {
 ),
     false
 );?>
-<h1><?= $name ?></h1>
 <article class="open_project">
     <? if ($image): ?>
         <img src="<?= $image ?>" width="630" alt="<?= $alt ?>" height="300"/>

@@ -32,6 +32,7 @@ foreach ($filesIds as $fid) {
     );
 }
 ?>
+<h1><?= $name ?></h1>
 <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb_bellift", Array(
     "START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
     "PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
@@ -39,7 +40,6 @@ foreach ($filesIds as $fid) {
 ),
     false
 );?>
-<h1><?= $name ?></h1>
 <script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script>
 <script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script>
 <div style="margin-bottom:20px; line-height:24px;">
