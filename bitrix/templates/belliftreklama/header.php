@@ -85,6 +85,7 @@ $isContacts = ($uri[1] == 'contacts');
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/35786035" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+
 </head>
 <body>
 <div id="panel"><? $APPLICATION->ShowPanel(); ?></div>

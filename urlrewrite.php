@@ -7,16 +7,16 @@ $arUrlRewrite = array(
 		"PATH" => "/services/completed/index.php",
 	),
 	array(
-		"CONDITION" => "#^/contacts/#",
-		"RULE" => "",
-		"ID" => "bitrix:form.result.new",
-		"PATH" => "/contacts/index.php",
-	),
-	array(
 		"CONDITION" => "#^/services/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
 		"PATH" => "/services/index.php",
+	),
+	array(
+		"CONDITION" => "#^/contacts/#",
+		"RULE" => "",
+		"ID" => "bitrix:form.result.new",
+		"PATH" => "/contacts/index.php",
 	),
 	array(
 		"CONDITION" => "#^/news/#",
