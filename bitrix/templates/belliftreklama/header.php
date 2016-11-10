@@ -17,7 +17,7 @@ $isContacts = ($uri[1] == 'contacts');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="yandex-verification" content="229900e2f1aae8ee" />
     <link href="<?= SITE_TEMPLATE_PATH ?>/favicon.png" rel="shortcut icon" type="image/x-icon"/>
-    <title><? $APPLICATION->ShowTitle() ?></title>
+	<title><? $APPLICATION->ShowTitle() ?></title>
 
     <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/reset.css">
     <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/style2.css">
@@ -33,7 +33,7 @@ $isContacts = ($uri[1] == 'contacts');
     <script src=""<?= SITE_TEMPLATE_PATH ?>/js/ie.js" type="text/javascript"></script>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-	
+
     <script src="<?= SITE_TEMPLATE_PATH ?>/js/jquery-2.1.1.min.js"></script>
     <script src="<?= SITE_TEMPLATE_PATH ?>/js/jquery.selectric.js"></script>
 	<script src="<?= SITE_TEMPLATE_PATH ?>/js/chosen.jquery.js"></script>

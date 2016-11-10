@@ -50,8 +50,6 @@ bitrix/tmp/
 cgi-bin/
 dump/
 .idea/
-.idea/vcs.xml
-.idea/workspace.xml
 upload/resize_cache/
 bitrix/managed_cache/
 bitrix/cache/

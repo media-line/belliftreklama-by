@@ -1,6 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
-$APPLICATION->SetPageProperty("title", $arResult["PROPERTIES"]["MAPNAME"]["VALUE"]);
+//$APPLICATION->SetPageProperty("title", $arResult["PROPERTIES"]["MAPNAME"]["VALUE"]);
 $APPLICATION->SetPageProperty("description", $arResult["PROPERTIES"]["MAPDESC"]["VALUE"]["TEXT"]);
 $APPLICATION->SetPageProperty("keywords", $arResult["PROPERTIES"]["MAPTAGS"]["VALUE"]);
 
@@ -18,6 +18,31 @@ $APPLICATION->SetPageProperty("keywords", $arResult["PROPERTIES"]["MAPTAGS"]["VA
 $this->setFrameMode(true);
 ?>
 <div class="news-detail">
+<?php
+//вывод нужного title на страницах карты
+
+    var_dump();
+    //определение города
+    $name_page = $arResult["NAME"];
+
+    //определение места в городе
+    switch ($_GET['filterObj']) {
+        case "1": $location = 'административных зданий'; break;
+        case "2": $location = 'бизнес-центров'; break;
+        case "3": $location = 'жилых домов'; break;
+        case "4": $location = 'элитных домов'; break;
+    }
+
+    if ($_GET['filterObj'] == NULL) {
+        $title = "Реклама в лифтах и подъездах города ".$name_page;
+    } elseif ($_GET['filterObj'] != NULL) {
+        $title = "Реклама в лифтах ".$location." города ".$name_page;
+    };
+
+    //собственно вывод title
+    $APPLICATION->SetTitle($title);
+?>
+
 	<?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arResult["DETAIL_PICTURE"])):?>
 		<img
 			class="detail_picture"
