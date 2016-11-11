@@ -1,6 +1,6 @@
 <? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); ?>
 <? if ($arResult["ITEMS"]): ?>
-<section class="slider_wrapper">
+<section class="slider_wrapper col-md-12 hidden-xs hidden-sm">
     <div class="slider">
         <? foreach ($arResult["ITEMS"] as $arItem): ?>
             <?

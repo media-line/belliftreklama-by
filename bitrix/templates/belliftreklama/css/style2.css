@@ -462,6 +462,7 @@ table td {
 .header_wrapper.white .top_menu a {
   color: #ffffff;
   text-decoration: none;
+    font-size: 18px;
 }
 .header_wrapper.white .top_menu a.active,
 .header_wrapper.white .top_menu a:hover {
@@ -507,6 +508,14 @@ table td {
   font-family: SansDemi;
   /*feedback in fancybox, if u'll use any other popup system - edit this*/
 }
+@media all and (max-width: 980px) {
+    .header_wrapper {
+        width: 100%;
+    }
+    .header_wrapper.white {
+        min-height: auto;
+    }
+}
 .header_wrapper header .logo_link {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -522,9 +531,10 @@ table td {
   background: url("../images/logo.png") -115px 0 no-repeat;
 }
 .header_wrapper header .top_menu {
-  float: left;
-  margin-left: 171px;
-  margin-top: 13px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    margin-left: 45px;
 }
 .header_wrapper header .top_menu li:last-child a {
   margin-right: 0px;

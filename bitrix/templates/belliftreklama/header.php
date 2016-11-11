@@ -13,8 +13,9 @@ $isContacts = ($uri[1] == 'contacts');
 <html>
 <head>
     <? $APPLICATION->ShowHead(); ?>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="yandex-verification" content="229900e2f1aae8ee" />
     <link href="<?= SITE_TEMPLATE_PATH ?>/favicon.png" rel="shortcut icon" type="image/x-icon"/>
 	<title><? $APPLICATION->ShowTitle() ?></title>
@@ -86,12 +87,15 @@ $isContacts = ($uri[1] == 'contacts');
 <noscript><div><img src="https://mc.yandex.ru/watch/35786035" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
+    <!-- Bootstrap -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
 <div id="panel"><? $APPLICATION->ShowPanel(); ?></div>
-
 <div class="header_wrapper <?=($isHome) ? 'white' : '';?>">
-    <header>
+    <header col-md-12>
         <a class="logo_link"
            href="<?php if (empty($uri[1])) echo '#'; else echo '/'; ?>" <?php if (empty($uri[1])) echo 'style="cursor: default;"'; ?>>
             
@@ -199,7 +203,8 @@ $isContacts = ($uri[1] == 'contacts');
         <? endif; ?>
     </header>
     <? if ($isHome): ?>
-    <div class="goto_block1"></div>
+    <div class="goto_block1 hidden-xs hidden-sm"></div>
     <? endif; ?>
 </div>
+<div class="container">
 <div class="content_wrapper">

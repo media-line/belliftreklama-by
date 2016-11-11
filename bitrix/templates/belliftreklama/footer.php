@@ -41,6 +41,7 @@ $isMap = ($uri[1] == 'map');
             </a></noindex>
     </footer>
 </div>
+</div>
 <? endif; ?>
 
 <div class="calc_description" id="calc_description">
