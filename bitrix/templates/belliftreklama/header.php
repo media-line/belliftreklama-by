@@ -95,7 +95,7 @@ $isContacts = ($uri[1] == 'contacts');
 <body>
 <div id="panel"><? $APPLICATION->ShowPanel(); ?></div>
 <div class="header_wrapper <?=($isHome) ? 'white' : '';?>">
-    <header col-md-12>
+    <header>
         <a class="logo_link"
            href="<?php if (empty($uri[1])) echo '#'; else echo '/'; ?>" <?php if (empty($uri[1])) echo 'style="cursor: default;"'; ?>>
             
@@ -115,7 +115,7 @@ $isContacts = ($uri[1] == 'contacts');
 	),
 	false
 );?>
-        <a class="contact_us" href="#contact_us_popup">Связаться с нами</a>
+        <a class="contact_us hidden-xs hidden-sm" href="#contact_us_popup">Связаться с нами</a>
         <section class="feedback_form" id="contact_us_popup">
             <section class="block">
                 <h2>Позвоните нам</h2>

@@ -88,7 +88,7 @@ $APPLICATION->SetTitle("Эффективное продвижение разме
             );
             ?>
             <a href="/map/" class="contact_us">Карта покрытия</a>
-                            <div class="mini_map">
+                            <div class="mini_map hidden-xs hidden-sm">
             <img src="<?= SITE_TEMPLATE_PATH ?>/images/pic_city.png" width="960" height="153" alt="lift"/>
                     <div class="pin pin1"><img src="<?= SITE_TEMPLATE_PATH ?>/images/minimap_pin.png" width="48" height="57" alt="pin" /></div>
                     <div class="pin pin2"><img src="<?= SITE_TEMPLATE_PATH ?>/images/minimap_pin.png" width="48" height="57" alt="pin" /></div>

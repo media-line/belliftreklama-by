@@ -18,7 +18,7 @@ html {
   font-size: 18px;
   line-height: 32px;
   font-family: SansLight;
-  min-width: 960px;
+  /*min-width: 960px;*/
 }
 ul,
 li,
@@ -452,6 +452,7 @@ table td {
   background: url("../images/slider_bg.jpg") no-repeat scroll center top #f3838b;
   padding-bottom: 0px;
   background-attachment: fixed;
+    background-size: cover;
 }
 .header_wrapper.white .logo_link {
   background: url("../images/logo_main.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -508,14 +509,7 @@ table td {
   font-family: SansDemi;
   /*feedback in fancybox, if u'll use any other popup system - edit this*/
 }
-@media all and (max-width: 980px) {
-    .header_wrapper {
-        width: 100%;
-    }
-    .header_wrapper.white {
-        min-height: auto;
-    }
-}
+
 .header_wrapper header .logo_link {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -1604,4 +1598,79 @@ ymaps[class*="balloon__content"] .inner_text a:hover {text-decoration: none;}
 .news_list .news a h2 {
   float:none !important;
   display:inline !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff !important;
+}
+
+@media all and (max-width: 980px) {
+    body {
+        width: 100%;
+        min-width: 0px;
+    }
+    .header_wrapper {
+        width: 100%;
+    }
+    .header_wrapper header {
+        width: 100%;
+    }
+    .header_wrapper.white {
+        min-height: auto;
+        float: none;
+    }
+    .header_wrapper.white .contact_us {
+        float: left;
+    }
+    .top_menu li {
+        float: none;
+    }
+    .content_wrapper #content, .content_wrapper #content_feed {
+        width: 100%;
+    }
+    .content_wrapper #content .main {
+        width: 100%;
+    }
+    .footer_wrapper footer {
+        width: 100%;
+    }
+    .header_wrapper header .top_menu {
+        float: none;
+    }
+    .header_wrapper.white .logo_link {
+        margin-left: 15px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #ff0000 !important;
+    }
+    .content_wrapper #content .block1 p, .content_wrapper #content .block3 p, .content_wrapper #content .block4 p, .content_wrapper #content .block6 p {
+        width: 83.67%;
+        margin-bottom: 10px;
+    }
+    .content_wrapper #content .block2 .gallery_imb_block.big_one {
+        width: 100%;
+    }
+    .block2 img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .gallery_imb_block {
+        margin: 0 5px !important;
+    }
+    .market_description {
+        width: 100% !important;
+    }
+    .market_description > .auditory_choose {
+        width: 20%;
+        margin-left: 5% !important;
+    }
+    .content_wrapper #content .block4 .contact_us, .content_wrapper #content .block6 .contact_us {
+        left: 0;
+        float: none;
+        padding: 5px 26px;
+    }
 }

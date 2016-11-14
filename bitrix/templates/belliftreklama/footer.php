@@ -28,7 +28,7 @@ $isMap = ($uri[1] == 'map');
             <!-- AddToAny END -->
         </div>
             <noindex><a rel="nofollow" href="http://jl.by">
-                <div class="creator">
+                <div class="creator hidden-xs hidden-sm">
                     <div class="logo_bot"></div>
                     <span>Дизайн и разработка</span>
                 </div>
