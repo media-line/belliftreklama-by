@@ -10,7 +10,7 @@ $name = $arResult['PREVIEW_PICTURE']['DESCRIPTION'];
 
 ?>
 
-<aside class="right_banner">
+<aside class="right_banner hidden-xs hidden-sm">
     <? if ($link): ?>
     <a href="<?= $link ?>">
         <? endif; ?>

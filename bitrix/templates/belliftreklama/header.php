@@ -96,8 +96,7 @@ $isContacts = ($uri[1] == 'contacts');
 <div id="panel"><? $APPLICATION->ShowPanel(); ?></div>
 <div class="header_wrapper <?=($isHome) ? 'white' : '';?>">
     <header>
-        <a class="logo_link"
-           href="<?php if (empty($uri[1])) echo '#'; else echo '/'; ?>" <?php if (empty($uri[1])) echo 'style="cursor: default;"'; ?>>
+        <a class="logo_link" href="<?php if (empty($uri[1])) echo '#'; else echo '/'; ?>" <?php if (empty($uri[1])) echo 'style="cursor: default;"'; ?>>
             
         </a>
 		<?$APPLICATION->IncludeComponent("bitrix:menu", "top", array(
