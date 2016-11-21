@@ -686,9 +686,12 @@ table td {
   background: url("../images/icon_doc.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
   padding-left: 30px;
   display: block;
-  float: right;
+  float: left;
   color: #000000;
   font-size: 14px;
+  height: 35px;
+  width: 100%;
+  line-height: 2.6;
 }
 .content_wrapper #content .main .doc_icon:hover {
   color: #f2353c;
