@@ -1363,17 +1363,17 @@ ymaps[class*="balloon__layout"] {
 }
 /*popup*/
 .popup_menu_wrapper {
-  background: none repeat scroll 0 0 white;
-  left: 50%;
-  margin-left: -479px;
-  margin-top: 30px;
-  padding: 12px 0px;
-  position: absolute;
-  width: 307px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.33);
-  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.33);
-  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.33);
-  z-index: 4;
+    background: none repeat scroll 0 0 white;
+    left: 50%;
+    margin-left: -479px;
+    margin-top: 30px;
+    padding: 12px 0px;
+    position: absolute;
+    width: 307px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.33);
+    z-index: 4;
 }
 .popup_menu_wrapper .menu {
   padding: 0 31px;
@@ -1420,16 +1420,17 @@ ymaps[class*="controls__control_toolbar"] {
   width: 307px;
 }
 #my-listbox-header {
-  background: url("../images/arrow_dropdown.png") no-repeat scroll right 14px rgba(0, 0, 0, 0);
-  border: 0 none;
-  color: #000000;
-  text-decoration: none;
-  font-family: SansBold;
-  font-weight: normal;
-  font-size: 21px;
-  padding-right: 19px;
-  padding-left: 71px;
-  cursor: pointer;
+    background: url("../images/arrow_dropdown.png") no-repeat scroll right 14px rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #000000;
+    text-decoration: none;
+    font-family: SansBold;
+    font-weight: normal;
+    font-size: 21px;
+    padding-right: 19px;
+    padding-left: 71px;
+    cursor: pointer;
+    float: left;
 }
 #my-listbox-header span {
   border-bottom: 1px dotted black;
@@ -1442,14 +1443,16 @@ ymaps[class*="controls__control_toolbar"] {
 }
 .dropdown-menu {
   background: url(../images/map_drop_menu.png) no-repeat;
-  height: 126px;
-  width: 100%;
+  width: 100% !important;
   float: left;
-  padding: 26px 28px 14px 71px;
+  padding: 26px 28px 14px 71px !important;
   width: 208px;
   display: none;
   margin-top: 2px;
   margin-bottom: 16px;
+  height: 170px;
+  position: relative !important;
+  border: none !important;
 }
 #my-listbox li {
   width: 100%;
@@ -1464,6 +1467,7 @@ ymaps[class*="controls__control_toolbar"] {
   line-height: 19px;
   margin-bottom: 15px;
   text-decoration: none;
+  font-size: 18px;
 }
 #my-listbox li a:hover,
 #my-listbox li a.active {
