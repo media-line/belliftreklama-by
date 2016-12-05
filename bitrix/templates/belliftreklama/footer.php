@@ -9,6 +9,7 @@ $isMap = ($uri[1] == 'map');
 ?>
 	<span id="up_button"></span>
 </div>
+</div>
 <? if (!$isMap): ?>
 <div class="footer_wrapper">
     <footer>
@@ -41,7 +42,7 @@ $isMap = ($uri[1] == 'map');
             </a></noindex>
     </footer>
 </div>
-</div>
+
 <? endif; ?>
 
 <div class="calc_description" id="calc_description">

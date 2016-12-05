@@ -448,11 +448,11 @@ table td {
   position: relative;
 }
 .header_wrapper.white {
-  min-height: 790px;
-  background: url("../images/slider_bg.jpg") no-repeat scroll center top #f3838b;
-  padding-bottom: 0px;
-  background-attachment: fixed;
-    background-size: cover;
+    min-height: 790px;
+    background: url("../images/slider_bg.jpg") no-repeat fixed center top #f3838b;
+    padding-bottom: 0px;
+    background-size: auto 100%;
+    -webkit-background-size: 100% auto;
 }
 .header_wrapper.white .logo_link {
   background: url("../images/logo_main.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -520,6 +520,7 @@ table td {
   background: url("../images/logo.png") 0 0 no-repeat;
   width: 115px;
   height: 62px;
+    background-size: 200% auto !important;
 }
 .header_wrapper header .logo_link:hover {
   background: url("../images/logo.png") -115px 0 no-repeat;
@@ -1005,7 +1006,8 @@ table td {
   position: relative;
   left: 393px;
   /*don't like such numbers, but don't want to make 1 more container*/
-  margin-top: 30px;
+  display: inline-block;
+  margin-top: 0px;
   text-decoration: none;
   color: #fff;
   float: left;
@@ -1212,6 +1214,8 @@ table td {
 .footer_wrapper footer .copyright {
   color: #999999;
   float: left;
+  display: inline-block;
+  padding-top: 6px;
 }
 .footer_wrapper footer .shareBar {
   float: left;
@@ -1251,7 +1255,7 @@ table td {
 }
 .footer_wrapper footer .creator {
   float: right;
-  margin-left: 8px;
+  margin-left: 15px;
 }
 .footer_wrapper footer .creator .logo_bot {
   -webkit-transition: all 0.5s ease-in-out;
@@ -1267,12 +1271,12 @@ table td {
   margin-right: 8px;
 }
 .footer_wrapper footer .creator span {
-  font-size: 12px;
-  color: #999999;
-  float: left;
-  display: block;
-  width: 70px;
-  line-height: 11px;
+    font-size: 12px;
+    color: #999999;
+    float: left;
+    display: block;
+    width: 90px;
+    line-height: 15px;
 }
 .footer_wrapper footer .creator:hover .logo_bot {
   background: url("../images/logo_bot.png") -26px 0 no-repeat;
@@ -1640,6 +1644,20 @@ ymaps[class*="balloon__content"] .inner_text a:hover {text-decoration: none;}
 
     .content_wrapper #content, .content_wrapper #content_feed {
         width: 100%;
+        margin-top: 18px;
+        margin-bottom: 65px;
+    }
+
+    .content_wrapper #content .block3 {
+        padding-top: 36px;
+    }
+
+    .content_wrapper #content .block4 {
+        padding-top: 16px;
+    }
+
+    .content_wrapper #content .block6 {
+        padding-top: 0;
     }
 
     .content_wrapper #content .main {
@@ -1714,6 +1732,7 @@ ymaps[class*="balloon__content"] .inner_text a:hover {text-decoration: none;}
         left: 0;
         float: none;
         padding: 5px 26px;
+        margin-bottom: 25px;
     }
 
     .content_wrapper #content .block6 .arrows_bg_block {
@@ -1756,5 +1775,35 @@ ymaps[class*="balloon__content"] .inner_text a:hover {text-decoration: none;}
     }
     #up_button {
         margin-right: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .content_wrapper #content .block4 .text_pic {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 380px) {
+    .footer_wrapper footer .copyright {
+        display: block;
+        width: 100%;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .footer_wrapper footer .shareBar,
+    .footer_wrapper footer .creator {
+        float: none;
+    }
+
+    .footer_wrapper footer .shareBar {
+        margin-left: 110px;
+        margin-bottom: 25px;
+    }
+
+    .footer_wrapper footer .creator {
+        margin-left: 90px;
     }
 }
